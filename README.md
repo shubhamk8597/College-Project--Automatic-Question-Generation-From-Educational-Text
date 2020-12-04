@@ -12,7 +12,7 @@ Most of the   educational material is in the form of PDF, and we loose important
 I did not have the text files and I used PDF extraction libraries which did not give results. At last I converted the pdf file into word and then exported into txt format which gave me great results and fairly clean data.
 
 ## MCQ Generation
-
+![](https://github.com/shubhamk8597/College-Project-On-going---Automatic-Question-Generation-From-Educational-Text/blob/main/Images/1.PNG)
 ### Steps
 **1 - Summarize the text**
       We use the BERT Extractive Summarizer to reduce the data and keep somewhat relevant sentences
