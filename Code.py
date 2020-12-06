@@ -132,6 +132,13 @@ for key in keyword_sentence_mapping.keys():
                 print(generate_distractors(lkey, 8))
                 print('\n')
               
-                
+## Match the columns
+import pandas as pd
+
+df = pd.DataFrame(rows, columns=["1st half", "2ND HALF"])
+answers = df.sample(n = 5)
+match_the_column = answers.apply(lambda x: x.sample(frac=1).values)
+
+## Odd Man Out working in progress               
 
     
