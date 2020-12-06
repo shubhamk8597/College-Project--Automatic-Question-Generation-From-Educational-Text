@@ -34,7 +34,9 @@ I did not have the text files and I used PDF extraction libraries which did not 
       Presenting the sentence by eliminating the answer keyword and generating the questions
 
 ## Match the column
+![](https://github.com/shubhamk8597/College-Project-Ongoing---Automatic-Question-Generation-From-Educational-Text/blob/main/Images/2.PNG)
 ###Steps
+
 **1 - Summarize the text**
       We use the BERT Extractive Summarizer to reduce the data and keep somewhat relevant sentences
       
