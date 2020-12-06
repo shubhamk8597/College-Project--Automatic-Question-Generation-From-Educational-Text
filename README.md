@@ -33,6 +33,25 @@ I did not have the text files and I used PDF extraction libraries which did not 
 **6 - Replaces Filtered Keys with Blank and add distractors**
       Presenting the sentence by eliminating the answer keyword and generating the questions
 
+## Match the column
+###Steps
+**1 - Summarize the text**
+      We use the BERT Extractive Summarizer to reduce the data and keep somewhat relevant sentences
+      
+**2 - Get Sentences for Filtered Keys**
+      Then we extract sentences having these filtered keys form the summarized text
+      
+**3 - Split the sentences in half and add to dataframe**
+      We use the pandas library to store the sentences in a dataframe 
+
+**4 - Use sample command of pandas to generater question**
+      We First use the sample command to finter out 5 sentences and then apply sample command on the second row to generate questions
+      
+      
+
+
+      
+
 ## Next tasks
 1 - Generating different question types like odd man out, Match the columns.
 
