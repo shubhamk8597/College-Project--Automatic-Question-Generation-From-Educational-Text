@@ -35,7 +35,7 @@ I did not have the text files and I used PDF extraction libraries which did not 
 
 ## Match the column
 ![](https://github.com/shubhamk8597/College-Project-Ongoing---Automatic-Question-Generation-From-Educational-Text/blob/main/Images/2.PNG)
-###Steps
+### Steps
 
 **1 - Summarize the text**
       We use the BERT Extractive Summarizer to reduce the data and keep somewhat relevant sentences
@@ -49,15 +49,20 @@ I did not have the text files and I used PDF extraction libraries which did not 
 **4 - Use sample command of pandas to generater question**
       We First use the sample command to finter out 5 sentences and then apply sample command on the second row to generate questions
       
-      
+            
+## Problems and  Future tasks
 
-
-      
-
-## Next tasks
-1 - Generating different question types like odd man out, Match the columns.
+1 - Generating different question types like odd man out, 
 
 2 - Working on calculation based questions
 
-2 - To extract keyphrases and make questions of descriptive type
+3 - To extract keyphrases and make questions of descriptive type
+
+4 -  Making the output aesthetic  
+
+5 - In match the columns working on the words that split in between and give out the answers
+
+
+
+
 
