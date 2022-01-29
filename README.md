@@ -20,7 +20,8 @@ I did not have the text files and I used PDF extraction libraries which did not 
 **2 - Extract Keywords**
       Python keyword extractor (PKE) library helps us extract keywords from the text. Here we can set how 
       many keywords do we want
-      
+
+
 **3 - Extract Filtered Keys**
       Now by searching the keywords extracted in summarized text we filter out only the keywords present in summarized text
       
