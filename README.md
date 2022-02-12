@@ -1,7 +1,5 @@
 # Project-Ongoing---Automatic-Question-Generation-From-Educational-Text
 
-## This is an on going project so the code and output are not well documented
-
 ## Overview
 We all have good methods to transform simple factual texts into questions but there is an actual need to form questions in the educational field, espeically science and technology. This project is an attempt to form questions based on educational text.
 
