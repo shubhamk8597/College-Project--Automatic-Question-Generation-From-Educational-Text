@@ -7,6 +7,29 @@ This project investigates the current state of automatic question generation and
 In the evaluation, we discover key criteria and shortcomings that would further improve the performance of automatically generating questions from the technical text.
 
 
+## Research Questions
+
+1) What type of questions can be well automated for technical learning material?
+2) How to implement the automation of these question types?
+3) How to facilitate teachers in creating exam questions by suggesting them automated questions?
+4) How to help students with self-learning and self-evaluation?
+
+## Workflow of Implementation - Questions
+
+We started with traditional question types of WH-Questions and Template Based Questions. The drawbacks in these types lead us to different question types which is explained below
+
+
+![](https://github.com/shubhamk8597/College-Project-On-going---Automatic-Question-Generation-From-Educational-Text/blob/main/Images/worrkflow.JPG)
+
+
+## Workflow of Implementation - GUI
+
+After we have the questions we follow the following flow to display them to teachers for scrutiny. These questions are then displayed to the Students for self evaluation
+
+
+![](https://github.com/shubhamk8597/College-Project-On-going---Automatic-Question-Generation-From-Educational-Text/blob/main/Images/workflowgui.JPG)
+
+
 ## 1) Data Extraction and Cleaning 
 
 ##### Approach 1 – Using pdf to text library in python (PyPDF2)
@@ -28,7 +51,7 @@ After cleaning the data, we notice that the number of sentences of little import
 Here we use Bert-extractive-summarizer library which is based on the paper ‘Leveraging BERT for Extractive Text Summarization on Lectures’. It uses BERT model for text embeddings and KMeans clustering to identify sentences close to the centroid for summary selection. (Miller, 2019).
 In this model we have the options to set the minimum and maximum length of the summary we want. We can also define the ratio of the summary length with respect to the input. For example., if the length is 10000 characters and we set the ratio attribute as ratio= 0.6 then the summary will have 6000 characters.
 
-## 3) Failure ofWH question type
+## 3) Failure of WH question type
 
 As WH questions are the most common types of questions that are widely known I started with this question type. The approach that was widely used in (Husain et al, 2015) and (Le et al, 2014).
 Creating a WH question involved two steps. The first was to correctly POS tag a sentence. The second step was to define rules for each type of POS tags. This method works well on a factual data like Wikipedia. But it did not do perform good on technical data that our course has.
