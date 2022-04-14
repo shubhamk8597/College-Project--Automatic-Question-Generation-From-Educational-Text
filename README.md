@@ -128,10 +128,10 @@ Using gensims glove2word2vec library that uses Glove, we get top similar words t
 
 As Multiple-choice questions follow gap fill questions strengths. Same goes to the weaknesses. Apart from these the main issue was because our way of finding the distractors. We found the distractors that were similar and close to our given keywords. Hence the distractors had words with similar meaning and could be potential answers.
 
-- Evaluation Criteria\n
-1)Perfect Distractors -Questions that did not need any edits in distractors\n
-2)Distractors Needed editing -Adding, editing or removing the generated distractors\n
-3)Distractors did not make sense \n
+- Evaluation Criteria\
+1)Perfect Distractors -Questions that did not need any edits in distractors\
+2)Distractors Needed editing -Adding, editing or removing the generated distractors\
+3)Distractors did not make sense 
 
 ![](https://github.com/shubhamk8597/College-Project-On-going---Automatic-Question-Generation-From-Educational-Text/blob/main/Images/table_mcq_evalve1.JPG)
 
@@ -156,10 +156,10 @@ The main drawback was that we just changed a single word in a sentence. Because 
 
 The second was that a literal antonym was used most of the time which also is not a natural way of negating a sentence.
 
-- Evaluation Criteria\n
-1)Perfect Questions	- Questions that did not need any edits in false sentence \n
-2)False sentence needed editing -Adding, editing or removing the generated fasle sentence\n
-3)False sentence did not make sense \n
+- Evaluation Criteria\
+1)Perfect Questions	- Questions that did not need any edits in false sentence \
+2)False sentence needed editing -Adding, editing or removing the generated fasle sentence\
+3)False sentence did not make sense 
 
 ![](https://github.com/shubhamk8597/College-Project-On-going---Automatic-Question-Generation-From-Educational-Text/blob/main/Images/table_tf.JPG)
 
@@ -179,9 +179,9 @@ This approach proved that we could use the core of one question type to create o
 
 As Match the column question type uses gap fill question type as basis we can evaluate them together.
 
-- Evaluation Criteria\n
-1)Well Formed Questions	-Questions that did not need any edits\n
-2)Questions with no sense -Errors due to imporper cleaning,Questions without context \n
+- Evaluation Criteria \
+1)Well Formed Questions	-Questions that did not need any edits  \
+2)Questions with no sense -Errors due to imporper cleaning,Questions without context  
 
 ![](https://github.com/shubhamk8597/College-Project-On-going---Automatic-Question-Generation-From-Educational-Text/blob/main/Images/table_mcq_evalve.JPG)
 
