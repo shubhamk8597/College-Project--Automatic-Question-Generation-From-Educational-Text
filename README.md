@@ -1,4 +1,4 @@
-# Automatic-Question-Generation-From-Techni-Text
+# Automatic-Question-Generation-From-Technical-Text
 
 ## Overview
 Questions are an important part of the learning process. A good question can deepen our knowledge about the subject further. They can help you think about a topic from a different point of view that you have never thought of before. They are the starting point of research work and asking the right questions leads us to the right answers.
